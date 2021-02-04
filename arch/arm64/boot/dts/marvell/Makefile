@@ -33,6 +33,7 @@ dtb-$(CONFIG_ARCH_MVEBU) += armada-8164-db.dtb
 dtb-$(CONFIG_ARCH_MVEBU) += armada-8320-pd.dtb
 dtb-$(CONFIG_ARCH_MVEBU) += armada-3900-db-vd-A.dtb
 dtb-$(CONFIG_ARCH_MVEBU) += armada-3900-db-vd-B.dtb
+dtb-$(CONFIG_ARCH_MVEBU) += armada-8040-clearfog-gt-8k.dtb
 
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
